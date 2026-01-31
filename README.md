@@ -248,15 +248,6 @@ GitHub-Archive-Analysis/
 - [BigQuery Documentation](https://cloud.google.com/bigquery/docs)
 - [GitHub Archive on BigQuery](https://console.cloud.google.com/marketplace/product/github/github-repos)
 
-## Use Cases
-
-This toolkit can be used for various analyses:
-
-- 📊 Track programming language trends
-- 👥 Identify most active developers and organizations
-- 🔍 Study open source contribution patterns
-- 📈 Analyze repository growth over time
-- 🐛 Research issue and PR management practices
 ## Getting Started
 
 1. **First time here?** → Read the [Quick Start Guide](QUICKSTART.md)
