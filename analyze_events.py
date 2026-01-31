@@ -42,13 +42,14 @@ class EventAnalyzer:
         downloader = GHArchiveDownloader()
         
         for event in downloader.read_events(filepath):
-            self.total_events += 1
-            
             event_type = event.get('type', 'Unknown')
             
             # Apply filter if specified
             if event_filter and event_type != event_filter:
                 continue
+            
+            # Count only events that pass the filter
+            self.total_events += 1
             
             # Collect statistics
             self.event_types[event_type] += 1
