@@ -2,6 +2,8 @@
 
 A comprehensive Python toolkit for downloading, analyzing, and visualizing GitHub Archive data. This project provides tools to work with the public GitHub timeline data, which records all public GitHub events including commits, pull requests, issues, and more.
 
+> 🚀 **New to this project?** Check out the [Quick Start Guide](QUICKSTART.md) to get up and running in minutes!
+
 ## About GitHub Archive
 
 [GitHub Archive](https://www.gharchive.org/) is a project to record the public GitHub timeline, archive it, and make it easily accessible for further analysis. GitHub provides 15+ event types, which range from new commits and fork events, to opening new tickets, commenting, and adding members to a project.
@@ -13,6 +15,13 @@ A comprehensive Python toolkit for downloading, analyzing, and visualizing GitHu
 - 🔍 **BigQuery integration** - Examples and utilities for querying data directly from Google BigQuery
 - 📈 **Event type analysis** - Detailed breakdown of different event types (pushes, issues, PRs, etc.)
 - 💾 **Export results** - Save analysis results to JSON for further processing
+
+## Quick Links
+
+- 📖 [Quick Start Guide](QUICKSTART.md) - Get started in minutes
+- 💡 [Examples](examples/) - Ready-to-run example scripts
+- 🤝 [Contributing](CONTRIBUTING.md) - How to contribute to this project
+- 🧪 [Tests](test_functionality.py) - Run tests to verify installation
 
 ## Installation
 
@@ -202,9 +211,17 @@ GitHub-Archive-Analysis/
 ├── download_gharchive.py    # Download GitHub Archive data
 ├── analyze_events.py        # Analyze downloaded events
 ├── bigquery_examples.py     # BigQuery integration and examples
+├── test_functionality.py    # Test suite with mock data
 ├── requirements.txt         # Python dependencies
-├── README.md               # This file
+├── README.md               # Complete documentation (this file)
+├── QUICKSTART.md           # Quick start guide for beginners
+├── CONTRIBUTING.md         # Contribution guidelines
 ├── .gitignore             # Git ignore rules
+├── examples/              # Example scripts
+│   ├── README.md          # Examples documentation
+│   ├── example1_basic_analysis.py
+│   ├── example2_event_type_focus.py
+│   └── example3_compare_days.py
 └── data/                  # Downloaded data (not tracked in git)
 ```
 
@@ -240,6 +257,22 @@ This toolkit can be used for various analyses:
 - 🔍 Study open source contribution patterns
 - 📈 Analyze repository growth over time
 - 🐛 Research issue and PR management practices
+## Getting Started
+
+1. **First time here?** → Read the [Quick Start Guide](QUICKSTART.md)
+2. **Want to see examples?** → Check out the [examples directory](examples/)
+3. **Ready to contribute?** → See [Contributing Guidelines](CONTRIBUTING.md)
+4. **Need help?** → Open an issue or discussion
+
+## Use Cases
+
+This toolkit can be used for various analyses:
+
+- 📊 Track programming language trends
+- 👥 Identify most active developers and organizations
+- 🔍 Study open source contribution patterns
+- 📈 Analyze repository growth over time
+- 🐛 Research issue and PR management practices
 - 🌍 Geographical distribution of contributions
 - ⏰ Time-based activity patterns
 
@@ -249,10 +282,14 @@ This project is open source and available for educational and research purposes.
 
 ## Contributing
 
-Contributions are welcome! Feel free to submit issues and pull requests.
+Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting pull requests.
 
 ## Acknowledgments
 
 - [GitHub Archive](https://www.gharchive.org/) by Ilya Grigorik
 - GitHub API for providing public event data
 - Google BigQuery for hosting the public dataset
+
+---
+
+Made with ❤️ for BigData analysis and open source research
