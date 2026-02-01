@@ -31,6 +31,11 @@ data/
 *.gz
 *.csv
 
+# Downloaded datasets
+ml-100k/
+ml-1m/
+ml-*/
+
 # IDE
 .vscode/
 .idea/

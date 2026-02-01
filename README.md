@@ -3,6 +3,8 @@
 A comprehensive Python toolkit for downloading, analyzing, and visualizing GitHub Archive data. This project provides tools to work with the public GitHub timeline data, which records all public GitHub events including commits, pull requests, issues, and more.
 
 > 🚀 **New to this project?** Check out the [Quick Start Guide](QUICKSTART.md) to get up and running in minutes!
+> 
+> 💡 **Looking for student-friendly alternatives?** See [Project Suggestions](PROJECT_SUGGESTIONS.md) for BigData projects that require fewer resources!
 
 ## About GitHub Archive
 
@@ -19,6 +21,7 @@ A comprehensive Python toolkit for downloading, analyzing, and visualizing GitHu
 ## Quick Links
 
 - 📖 [Quick Start Guide](QUICKSTART.md) - Get started in minutes
+- 🎓 [Project Suggestions](PROJECT_SUGGESTIONS.md) - Student-friendly BigData project alternatives
 - 💡 [Examples](examples/) - Ready-to-run example scripts
 - 🤝 [Contributing](CONTRIBUTING.md) - How to contribute to this project
 - 🧪 [Tests](test_functionality.py) - Run tests to verify installation
@@ -232,6 +235,13 @@ GitHub-Archive-Analysis/
 - google-cloud-bigquery (for BigQuery integration)
 - pandas (for data analysis)
 - python-dateutil
+
+### System Requirements
+- **Disk Space**: 1-10 GB recommended (each hour of data is 10-30 MB compressed)
+- **RAM**: 4-8 GB minimum (analyzing large datasets requires more memory)
+- **Internet**: Stable connection for downloading archive data
+
+> ⚠️ **Note for Students**: GitHub Archive data can be quite large. If you have limited resources, check out our [Project Suggestions](PROJECT_SUGGESTIONS.md) for alternative BigData projects that require less storage and processing power.
 
 ## Notes
 
